@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">D&amp;D Pocket Tools</string>
+
+    <string name="preview">Preview: %1$s</string>
+
+    <string name="error_unknown">[unknown]</string>
+    <string name="error_no_campaign_data">No campaign data found.</string>
+    <string name="error_no_campaign_to_add_people_to">You have to select a campaign before you can add Characters to it.</string>
+
+    <string name="info_select_characters_to_edit">Select the character(s) to edit from the list.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="table_name">Name</string>
+    <string name="table_player">Player</string>
+    <string name="table_XP">XP</string>
+    <string name="table_Level">Level</string>
+    <string name="table_Notes">Notes</string>
+    <string name="table_Alignment">Alignment</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_category_actions">Actions</string>
+    <string name="drawer_category_references">External References</string>
+    <string name="drawer_category_tools">Tools</string>
+    <string name="action_new_campiagn">New campaign</string>
+    <string name="action_select_campiagn">Change campaign</string>
+    <string name="action_select_campiagn_title">Choose a campaign:</string>
+
+    <string name="party_stats_campaign_instructions">Create a new campaign to add characters to.</string>
+
+    <string name="dice_shortcut">d</string>
+    <string name="dice_interpreted">Input interpreted as %1$s.</string>
+    <string name="custom">Custom</string>
+    <string name="dice_calculator_edit_directly">Edit dice via Text</string>
+    <string name="dice_calculator_roll_result">Rolling %1$s resulted in %2$s [%3$s]!</string>
+    <string name="dice_calculator_roll_selected">Roll selected: %1$s [%2$s]!</string>
+    <string name="dice_calculator_roll_hint">Example: 2d6</string>
+
+    <string name="drawer_category_roll_distributor">Roll Distributor</string>
+    <string name="drawer_dnd_quick_reference"><![CDATA[D&D 5e Quick Reference]]></string>
+    <string name="action_edit_dice">Edit dice</string>
+    <string name="error_invalid_input">Invalid Input.</string>
+    <string name="action_roll_something">Roll something</string>
+    <string name="preference_file_key">de.wavegate.tos.dnd_pocket_tools</string>
+    <string name="dialog_campaign_name">Campaign Name:</string>
+    <string name="dialog_campaign_gmname">GM Name:</string>
+    <string name="dialog_campaign_gmname_dynamic">GM: %1$s</string>
+    <string name="dialog_campaign_player_count">Players: %1$s</string>
+    <string name="dialog_new_player_level">(Level %1$s)</string>
+    <string name="util_name">Name</string>
+    <string name="action_add_new_character">Add Character</string>
+
+    <string name="alignment_lg">Lawful Good</string>
+    <string name="alignment_ln">Lawful Neutral</string>
+    <string name="alignment_le">Lawful Evil</string>
+    <string name="alignment_ng">Neutral Good</string>
+    <string name="alignment_n">Neutral</string>
+    <string name="alignment_ne">Neutral Evil</string>
+    <string name="alignment_cg">Chaotic Good</string>
+    <string name="alignment_cn">Chaotic Neutral</string>
+    <string name="alignment_ce">Chaotic Evil</string>
+    <string name="alignment_none">[Unaligned]</string>
+
+    <string name="alignment_lg_s">LG</string>
+    <string name="alignment_ln_s">LN</string>
+    <string name="alignment_le_s">LE</string>
+    <string name="alignment_ng_s">NG</string>
+    <string name="alignment_n_s">N</string>
+    <string name="alignment_ne_s">NE</string>
+    <string name="alignment_cg_s">CG</string>
+    <string name="alignment_cn_s">CN</string>
+    <string name="alignment_ce_s">CE</string>
+    <string name="alignment_none_s" translatable="false">-</string>
+    <string name="action_edit_character">Edit character</string>
+    <string name="action_warward_xp_to_all">Award XP to all</string>
+    <string name="actions_show_party_alignment">Party Alignment</string>
+    <string name="actions_delete_all_characters">Delete all Characters</string>
+    <string name="actions_delete_all_characters_confirm">Are you sure to delete all Characters in this campaign?</string>
+    <string name="actions_delete_this_campaign">Delete Campaign</string>
+    <string name="actions_delete_this_campaign_confirm">Are you sure to delete this campaign and all Characters associated with it?</string>
+    <string name="action_edit">Edit</string>
+    <string name="actions_rename_this_campaign">Rename campaign</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_share">Share</string>
+    <string name="qr_code">QR Code</string>
+    <string name="share_campaign_info1">Scan this QR coude via \'Import Campaign\' to add it to another device.</string>
+    <string name="share_campaign_info2">Alternatively, tap the QR code to copy the raw campaign data and send it via Instant Messaging or E-Mail.</string>
+    <string name="action_copy_campaign_code">Copy campaign code</string>
+    <string name="campaign_copied_to_clipboard">Campaign code copied to clipboard.</string>
+    <string name="actions_import_campaign">Import campaign</string>
+    <string name="actions_import_campaign_info">Choose import method:</string>
+    <string name="actions_import_campaign_exists_warning">There already exists a campaign with the same name.\nDo you want to overwrite the existing data with the imported one, or create a new campaign?</string>
+    <string name="create_new">Create new campaign</string>
+    <string name="integrate">Overwrite</string>
+    <string name="share_warning_illegal_characters">Unable to prepare your campaign and the involved characters.\nIt seems you are using illegal characters in the names / descriptions. You can attempt to auto-resolve this issue and try sharing again.\n\nIn general, try to avoid special characters at all.</string>
+    <string name="auto_resolve">Auto resolve</string>
+    <string name="actions_import_campaign_error_wrong_code">Could not interpret the scanned QR Code.\n\nAre you sure you scanned the correct code?\n\nIf so\n-check your camera and light / angle\n-avoid special characters in campaign / player-characters texts</string>
+    <string name="error_same_campaign">Choose a different campaign to do this.</string>
+    <string name="action_delete_confirm">Are you sure you want to delete the selected character(s) from this campaign?</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_move">Move</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_backup_campaign">Backup</string>
+    <string name="backup_name">Backup name:</string>
+    <string name="backup_success">Backup saved without problems.</string>
+    <string name="actions_import_campaign_error_wrong_text">The given resource text could not be interpreted.\n\nAre you sure this is the right text?</string>
+    <string name="error_duplicate_backup_name">Could not save that backup. A backup with the same name already exists.</string>
+
+    <string name="action_scan_qr_code">Scan QR Code</string>
+    <string name="raw_campaign_code">Paste raw campaign code</string>
+    <string name="load_backup_file">Load from backup file</string>
+    <string name="actions_import_backup_instructions">Choose from one of these backup files.</string>
+    <string name="error_no_backup_files_found">No backup data found on this device.</string>
+    <string name="last_modified">Last modified: %1$s</string>
+
+    <string name="util_bold"><b>%1$s</b></string>
+    <string name="util_italic"><i>%1$s</i></string>
+    <string name="util_underline"><u>%1$s</u></string>
+
+    <string name="error_missing_campaign_name">Missing campaign name</string>
+    <string name="error_missing_campaign_gm_name">Missing GM name</string>
+    <string name="error_missing_campaign_player_count">Missing information about player count</string>
+    <string name="error_backup_loading_error">Failed to read information from the selected backup file.\nError information: \'%1$s\'</string>
+    <string name="error_backup_missing_player_info">Missing information for Player Character at position %1$s</string>
+    <string name="error_dice_calculation_falied"><b>Calculating</b> the dice probabilities failed due to numbers getting too small and the device tried to divide by zero.\n\nAll probabilities were <b>rolled</b> instead.\nDue to the result being random now, individual probabilities may vary and are not accurate.</string>
+    <string name="error_dice_calculation_falied_short">Calculating the probabilities failed. Switched to rolling.</string>
+    <string name="ok_dont_show_again">OK, don\'t show again</string>
+    <string name="drawer_category_initiative_assistent">Initiative assistent</string>
+    <string name="drawer_category_world_map">World map</string>
+    <string name="drawer_category_party">Party</string>
+    <string name="drawer_category_name_generator">Name Generator</string>
+    <string name="markov_tab_all_player_characters">All player characters</string>
+    <string name="info_page">Page %1$s/%2$s</string>
+    <string name="action_next_markov">Generate more names</string>
+    <string name="action_edit_count">Edit generation count</string>
+    <string name="clear">Clear</string>
+    <string name="clear_this_list">Clear this list</string>
+    <string name="clear_all">Clear all</string>
+    <string name="filename_dnd5_gm_screen_names"><![CDATA[D&D 5e GM screen names]]></string>
+    <string name="action_create_example_resources">Example resources</string>
+    <string name="action_create_example_resources_short">Create example again</string>
+    <string name="info">Info</string>
+    <string name="markiv_info_scientific_detail">This name generator is based on a <b>Hidden Markov Model</b>.\n\nThis is the same method used by modern phones when attempting <i>text prediction</i> and <i>auto correction</i>.\n\nThis means, in order to work properly a set of training data has to be provided. The generated names will be based on the structure of the provided example names.\n\nIf you have created at least one player character in this app, you can create new names based on those characters\' names. With a low character count this will result in similar names, due to bad training, but it may provide a good insight how this name generator works. If you want to provide your own training data, save each set as a %1$s file in this directory:\n\n%2$s\n\nEvery line in the file will be considered a new entry in the same set.\n\nBy default all possible names that can be created with the D&amp;D 5e GM Screen are used by this app. Locate the %1$s file and use it as a reference.</string>
+    <string name="markov_info_detail">This name generator is based on a list of manually, upfront provided names. These generated names will rely on the structure of the provided example names.\n\nIf you have created at least one player character in this app, you can create new names based on those characters\' names. With a low character count this will result in similar names, but it may provide a good insight how this name generator works.\n\nTap on the \'examples\' button to start learning how to add your own list of names to this app.</string>
+    <string name="action_markov_create_defaults_extended">If you want to provide your own name categories, save each of these as a %1$s file here:\n\n%2$s\n\nEvery line in the file should be a new name this app can learn from. Categories will not influence each other.\n\nAs an example all possible names that can be created with the D&amp;D 5e GM Screen are already used by this app.</string>
+    <string name="markov_change_generation_amount_detail">How many Names will be created at the same time?</string>
+    <string name="browse_directory">Browse folder (experimental)</string>
+    <string name="error_markov_default_file_exists">The file containing the training data already exists.</string>
+    <string name="error_markov_not_loaded_yet">Please wait until loading has finished.</string>
+    <string name="action_quick_select">Quick select</string>
+    <string name="action_select_markov_training_element">Random training element</string>
+    <string name="markov_training_count">Training data count: %1$s</string>
+    <string name="show_scientific_explanation">Detailed scientific explanation</string>
+    <string name="more_categories">More categories</string>
+    <string name="more_categories_details"><b>Did you know you can add your own category?</b>\n\nTake a look at the menu and learn more about the way you can add more categories.\nUsed right, this name generator can be used universal for everything that can have a name, like cities, lands, pets, etc. These names can even be given additional flavors, like <i>orcish</i> or <i>elvish</i> influences.\n\nYou can hide this tab in the options menu.</string>
+    <string name="error_markov_cant_do_that_info_page">Can\'t do that on the info page.</string>
+    <string name="error_maximum_markov_reached">Name limit reached for this category.</string>
+    <string name="action_check_example">Check example file</string>
+    <string name="error_example_file_not_found">Could not find the example file. Try creating it if you haven\'t already.</string>
+    <string name="action_select_lookahead">Select lookahead</string>
+    <string name="markov_lookahead_context_detail">By selecting \"Context sensitive\" the App will try to auto-select an appropriate value depending on the resource names provided.</string>
+    <string name="markov_lookahead_context">Context sensitive (Default)</string>
+    <string name="markov_lookahead_context_description"><b>For advanced users only</b>\nWhen attempting to create the next character for the name, this value will determine how much the previous characters influence the next. A high number with low reference names will yield slopy results.</string>
+    <string name="drawer_category_aoe_displayer">Areas of effect</string>
+
+    <string name="shape_line">Line</string>
+    <string name="shape_cube">Cube</string>
+    <string name="shape_cone">Cone</string>
+    <string name="shape_sphere">Sphere</string>
+    <string name="aoe_shape">Shape:</string>
+    <string name="aoe_size">Size:</string>
+
+</resources>

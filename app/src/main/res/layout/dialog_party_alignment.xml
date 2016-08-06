@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_lg_s"
+            android:id="@+id/dialog_party_alignment_lg"
+            android:layout_column="0"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_ng_s"
+            android:id="@+id/dialog_party_alignment_ng"
+            android:layout_column="1"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_cg_s"
+            android:id="@+id/dialog_party_alignment_cg"
+            android:layout_column="2"
+            android:padding="15dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_ln_s"
+            android:id="@+id/dialog_party_alignment_ln"
+            android:layout_column="0"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_n_s"
+            android:id="@+id/dialog_party_alignment_n"
+            android:layout_column="1"
+            android:padding="15dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_cn_s"
+            android:id="@+id/dialog_party_alignment_cn"
+            android:layout_column="2"
+            android:padding="15dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_le_s"
+            android:id="@+id/dialog_party_alignment_le"
+            android:layout_column="0"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_ne_s"
+            android:id="@+id/dialog_party_alignment_ne"
+            android:layout_column="1"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/alignment_ce_s"
+            android:id="@+id/dialog_party_alignment_ce"
+            android:layout_column="2"
+            android:padding="15dp"/>
+    </TableRow>
+</TableLayout>

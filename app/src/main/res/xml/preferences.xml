@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_general"
+        android:title="title">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_test"
+            android:title="test"/>
+
+        <Preference
+            android:key="pref_delete_all"
+            android:title="Delete All saved data"
+            />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/markov_lookahead_context_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:padding="8dp"/>
+
+    <NumberPicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/markov_lookahead_spinner"/>
+
+    <CheckBox
+        android:text="@string/markov_lookahead_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/markov_lookahead_cb"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:text="@string/markov_lookahead_context_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:id="@+id/textView15"
+        android:padding="8dp"/>
+</LinearLayout>

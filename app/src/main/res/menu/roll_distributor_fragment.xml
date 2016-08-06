@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_editDice"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/action_edit_dice"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_roll_something"
+        android:icon="@drawable/random_outline_white"
+        android:title="@string/action_roll_something"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_change_input_via_text"
+        android:title="@string/dice_calculator_edit_directly"
+        app:showAsAction="never"/>
+</menu>

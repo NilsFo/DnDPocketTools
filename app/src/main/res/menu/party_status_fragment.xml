@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_new_character"
+        android:icon="@drawable/ic_action_add_person"
+        android:title="@string/action_add_new_character"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_editmode_party_status_fragment"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/action_edit"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share_campaign"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_new_campaign"
+        android:title="@string/action_new_campiagn"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_change_campaign"
+        android:title="@string/action_select_campiagn"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_awardXPToAll"
+        android:title="@string/action_warward_xp_to_all"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_backupCampaign"
+        android:title="@string/action_backup_campaign"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_show_party_alignment"
+        android:title="@string/actions_show_party_alignment"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_import_campaign"
+        android:title="@string/actions_import_campaign"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_delete_this_campaign"
+        android:title="@string/actions_delete_this_campaign"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".activity.mainfragments.RollDistributionsFragment">
+
+    <TextView
+        android:id="@+id/party_stats_campaign_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="7dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:id="@+id/party_stats_edit_panel">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_delete"
+            android:id="@+id/party_stats_delete_bt"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_move"
+            android:id="@+id/party_stats_move_bt"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_copy"
+            android:id="@+id/party_stats_copy_bt"/>
+    </LinearLayout>
+
+    <de.codecrafters.tableview.SortableTableView
+        android:id="@+id/party_table_view"
+        xmlns:table="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        table:columnCount="5"
+        table:headerColor="@color/colorPrimary"
+        table:headerElevation="10"/>
+
+</LinearLayout>

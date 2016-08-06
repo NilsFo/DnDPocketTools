@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">D&amp;D Pocket Tools</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_share">Teilen</string>
+    <string name="actions_show_party_alignment">Gesinnungen</string>
+    <string name="alignment_ce">Chaotisch böse</string>
+    <string name="alignment_ce_s">CB</string>
+    <string name="alignment_cg">Chaotisch gut</string>
+    <string name="alignment_cg_s">CG</string>
+    <string name="alignment_cn">Chaotisch neutral</string>
+    <string name="alignment_cn_s">CN</string>
+    <string name="alignment_le">Rechtschaffend böse</string>
+    <string name="alignment_le_s">RB</string>
+    <string name="alignment_lg">Rechtschaffend gut</string>
+    <string name="alignment_lg_s">RG</string>
+    <string name="alignment_ln">Rechtschaffend neutral</string>
+    <string name="alignment_ln_s">RN</string>
+    <string name="alignment_n">Neutral</string>
+    <string name="alignment_n_s">N</string>
+    <string name="alignment_ne">Neutral böse</string>
+    <string name="alignment_ne_s">NB</string>
+    <string name="alignment_ng">Neutral gut</string>
+    <string name="alignment_ng_s">NG</string>
+    <string name="alignment_none">[Ohne Gesinnung]</string>
+    <string name="alignment_none_s"></string>
+</resources>

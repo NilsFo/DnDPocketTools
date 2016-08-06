@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_next_markov"
+        android:title="@string/action_next_markov"
+        />
+    <item
+        android:id="@+id/action_quick_select_markov"
+        android:title="@string/action_quick_select"
+        >
+    </item>
+    <item
+        android:id="@+id/action_select_markov_training_element"
+        android:icon="@drawable/random_outline_white"
+        android:title="@string/action_select_markov_training_element"
+        app:showAsAction="ifRoom"
+        />
+    <group
+        >
+        <item
+            android:id="@+id/action_clear_markov"
+            android:icon="@drawable/ic_action_discard"
+            android:title="@string/clear_this_list"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/action_clear_markov_all"
+            android:title="@string/clear_all"
+            />
+    </group>
+    <item
+        android:id="@+id/action_markov_generation_amount"
+        android:checkable="false"
+        android:icon="@drawable/ic_action_dial_pad"
+        android:title="@string/action_edit_count"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/action_markov_select_lookahead"
+        android:title="@string/action_select_lookahead"/>
+    <item
+        android:id="@+id/action_markov_create_defaults"
+        android:title="@string/action_create_example_resources"
+        />
+    <item
+        android:id="@+id/action_markov_information"
+        android:title="@string/info"
+        />
+
+</menu>

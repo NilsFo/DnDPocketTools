@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="import_campaign_options">
+        <item>@string/action_scan_qr_code</item>
+        <item>@string/raw_campaign_code</item>
+        <item>@string/load_backup_file</item>
+    </string-array>
+
+    <string-array name="values_aoe_shapes">
+        <item>@string/shape_line</item>
+        <item>@string/shape_cube</item>
+        <item>@string/shape_cone</item>
+        <item>@string/shape_sphere</item>
+    </string-array>
+
+    <string-array name="values_aoe_size">
+        <item>"5"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+        <item>"20"</item>
+        <item>"25"</item>
+        <item>"30"</item>
+        <item>"35"</item>
+        <item>"40"</item>
+        <item>"45"</item>
+        <item>"50"</item>
+        <item>"55"</item>
+        <item>"60"</item>
+        <item>@string/custom</item>
+    </string-array>
+
+</resources>

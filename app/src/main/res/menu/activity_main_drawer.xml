@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/drawer_category_actions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_my_parties"
+                    android:icon="@drawable/ic_action_group"
+                    android:title="@string/drawer_category_party"
+                    />
+                <item
+                    android:id="@+id/nav_rollDistribution"
+                    android:icon="@drawable/random_outline"
+                    android:title="@string/drawer_category_roll_distributor"/>
+                <item
+                    android:id="@+id/nav_initiative_assistent"
+                    android:title="@string/drawer_category_initiative_assistent"/>
+                <item
+                    android:id="@+id/nav_aoe_displayer"
+                    android:title="@string/drawer_category_aoe_displayer"/>
+                <item
+                    android:id="@+id/nav_name_generator"
+                    android:title="@string/drawer_category_name_generator"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_category_tools">
+        <menu>
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/action_settings"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_category_references">
+        <menu>
+            <item
+                android:id="@+id/battleReferences"
+                android:icon="@drawable/ic_action_web_site"
+                android:title="@string/drawer_dnd_quick_reference"/>
+        </menu>
+    </item>
+
+</menu>
